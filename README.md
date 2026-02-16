@@ -1,4 +1,4 @@
-# 🖼️ BGI Converter para UI BGI-Ethornell
+# 🖼️ BGI Converter TGA Usado para Extração de UI da engine BGI-Ethornell 
 
 Conversor multi-formato para arquivos **BGI e BMP**, com exportação para **TGA (32-bit RGBA)**.
 
