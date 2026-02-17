@@ -6,6 +6,7 @@
 #include <filesystem>
 #include <algorithm>
 #include <locale>
+#include <windows.h>
 
 namespace fs = std::filesystem;
 
@@ -471,6 +472,7 @@ void print_usage() {
 }
 
 int main(int argc, char* argv[]) {
+    SetConsoleOutputCP(CP_UTF8);
     if (argc == 1) {
         interactive_mode();
         return 0;
